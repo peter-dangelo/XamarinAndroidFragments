@@ -1,0 +1,13 @@
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\bin\Debug\XamarinAndroidFragments.dll
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\bin\Debug\XamarinAndroidFragments.pdb
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\bin\Debug\XamarinAndroidFragments.dll.mdb
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\bin\Debug\XamarinAndroidFragments.XamarinAndroidFragments.apk
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\bin\Debug\XamarinAndroidFragments.XamarinAndroidFragments-Signed.apk
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\obj\Debug\XamarinAndroidFragments.dll
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\obj\Debug\XamarinAndroidFragments.pdb
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\obj\Debug\android\bin\XamarinAndroidFragments.XamarinAndroidFragments.apk
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\obj\Debug\res\values\strings.xml
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\obj\Debug\res\layout\activity_main.xml
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\obj\Debug\res\drawable\icon.png
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\obj\Debug\R.cs.flag
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\obj\Debug\uploadflags.txt

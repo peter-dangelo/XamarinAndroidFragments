@@ -1,0 +1,2 @@
+C:\Users\pete\Documents\GitHub\MyGithub\XamarinAndroidFragments\bin\Debug\XamarinAndroidFragments.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v4.3\Mono.Android.Support.v4.dll

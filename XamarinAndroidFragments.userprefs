@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainActivity.cs">
+    <Files>
+      <File FileName="DetailsActivity.cs" Line="1" Column="1" />
+      <File FileName="DetailsFragment.cs" Line="1" Column="1" />
+      <File FileName="MainActivity.cs" Line="14" Column="30" />
+      <File FileName="Shakespeare.cs" Line="1" Column="1" />
+      <File FileName="TitlesFragment.cs" Line="16" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XamarinAndroidFragments MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="141e5471" />
+</Properties>
