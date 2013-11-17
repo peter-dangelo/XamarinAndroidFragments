@@ -1,10 +1,11 @@
 ﻿using Android.App;
 using Android.OS;
+using Android.Support.V4.App;
 
-namespace com.xamarin.sample.fragments.honeycomb
+namespace com.xamarin.sample.fragments
 {
 	[Activity(Label = "Fragments Walkthrough", MainLauncher = true)]
-	public class MainActivity : Activity
+	public class MainActivity : FragmentActivity
 	{
 		protected override void OnCreate(Bundle bundle)
 		{

@@ -1,8 +1,8 @@
-package com.xamarin.sample.fragments.honeycomb;
+package com.xamarin.sample.fragments;
 
 
 public class MainActivity
-	extends android.app.Activity
+	extends android.support.v4.app.FragmentActivity
 	implements
 		mono.android.IGCUserPeer
 {
@@ -11,7 +11,7 @@ public class MainActivity
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("com.xamarin.sample.fragments.honeycomb.MainActivity, XamarinAndroidFragments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", MainActivity.class, __md_methods);
+		mono.android.Runtime.register ("com.xamarin.sample.fragments.MainActivity, XamarinAndroidFragments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", MainActivity.class, __md_methods);
 	}
 
 
@@ -19,7 +19,7 @@ public class MainActivity
 	{
 		super ();
 		if (getClass () == MainActivity.class)
-			mono.android.TypeManager.Activate ("com.xamarin.sample.fragments.honeycomb.MainActivity, XamarinAndroidFragments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("com.xamarin.sample.fragments.MainActivity, XamarinAndroidFragments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

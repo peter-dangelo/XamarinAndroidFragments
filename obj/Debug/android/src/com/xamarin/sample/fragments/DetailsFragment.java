@@ -1,8 +1,8 @@
-package com.xamarin.sample.fragments.honeycomb;
+package com.xamarin.sample.fragments;
 
 
 public class DetailsFragment
-	extends android.app.Fragment
+	extends android.support.v4.app.Fragment
 	implements
 		mono.android.IGCUserPeer
 {
@@ -11,7 +11,7 @@ public class DetailsFragment
 		__md_methods = 
 			"n_onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("com.xamarin.sample.fragments.honeycomb.DetailsFragment, XamarinAndroidFragments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", DetailsFragment.class, __md_methods);
+		mono.android.Runtime.register ("com.xamarin.sample.fragments.DetailsFragment, XamarinAndroidFragments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", DetailsFragment.class, __md_methods);
 	}
 
 
@@ -19,7 +19,7 @@ public class DetailsFragment
 	{
 		super ();
 		if (getClass () == DetailsFragment.class)
-			mono.android.TypeManager.Activate ("com.xamarin.sample.fragments.honeycomb.DetailsFragment, XamarinAndroidFragments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("com.xamarin.sample.fragments.DetailsFragment, XamarinAndroidFragments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

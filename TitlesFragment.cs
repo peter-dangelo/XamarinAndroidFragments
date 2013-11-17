@@ -1,12 +1,12 @@
 using System;
 
-using Android.App;
 using Android.Content;
 using Android.OS;
+using Android.Support.V4.App;
 using Android.Views;
 using Android.Widget;
 
-namespace com.xamarin.sample.fragments.honeycomb
+namespace com.xamarin.sample.fragments
 {
 	public class TitlesFragment : ListFragment
 	{
@@ -18,6 +18,10 @@ namespace com.xamarin.sample.fragments.honeycomb
 			base.OnActivityCreated(savedInstanceState);
 
 			var detailsFrame = Activity.FindViewById<View>(Resource.Id.details);
+
+			// If running on a tablet, then the layout in Resources/Layout-Large will be loaded. 
+			// That layout uses fragments, and defines the detailsFrame. We use the visiblity of 
+			// detailsFrame as this distinguisher between tablet and phone.
 			_isDualPane = detailsFrame != null && detailsFrame.Visibility == ViewStates.Visible;
 
 			var adapter = new ArrayAdapter<String>(Activity, Android.Resource.Layout.SimpleListItemChecked, Shakespeare.Titles);
@@ -35,15 +39,15 @@ namespace com.xamarin.sample.fragments.honeycomb
 			}
 		}
 
-		public override void OnListItemClick(ListView l, View v, int position, long id)
-		{
-			ShowDetails(position);
-		}
-
 		public override void OnSaveInstanceState(Bundle outState)
 		{
 			base.OnSaveInstanceState(outState);
 			outState.PutInt("current_play_id", _currentPlayId);
+		}
+
+		public override void OnListItemClick(ListView l, View v, int position, long id)
+		{
+			ShowDetails(position);
 		}
 
 		private void ShowDetails(int playId)
@@ -66,7 +70,7 @@ namespace com.xamarin.sample.fragments.honeycomb
 					// fragment with this one inside the frame.
 					var ft = FragmentManager.BeginTransaction();
 					ft.Replace(Resource.Id.details, details);
-					ft.SetTransition(FragmentTransit.FragmentFade);
+					ft.SetTransition(FragmentTransaction.TransitFragmentFade);
 					ft.Commit();
 				}
 			}
@@ -76,7 +80,7 @@ namespace com.xamarin.sample.fragments.honeycomb
 				// the dialog fragment with selected text.
 				var intent = new Intent();
 
-				intent.SetClass(Activity, typeof(DetailsActivity));
+				intent.SetClass(Activity, typeof (DetailsActivity));
 				intent.PutExtra("current_play_id", playId);
 				StartActivity(intent);
 			}

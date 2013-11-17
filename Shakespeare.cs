@@ -1,4 +1,4 @@
-namespace com.xamarin.sample.fragments.honeycomb
+namespace com.xamarin.sample.fragments
 {
 	internal class Shakespeare
 	{

@@ -1,7 +1,7 @@
-com.xamarin.sample.fragments.honeycomb.DetailsActivity;com.xamarin.sample.fragments.honeycomb.DetailsActivity
-com.xamarin.sample.fragments.honeycomb.DetailsFragment;com.xamarin.sample.fragments.honeycomb.DetailsFragment
-com.xamarin.sample.fragments.honeycomb.MainActivity;com.xamarin.sample.fragments.honeycomb.MainActivity
-com.xamarin.sample.fragments.honeycomb.TitlesFragment;com.xamarin.sample.fragments.honeycomb.TitlesFragment
+com.xamarin.sample.fragments.DetailsActivity;com.xamarin.sample.fragments.DetailsActivity
+com.xamarin.sample.fragments.DetailsFragment;com.xamarin.sample.fragments.DetailsFragment
+com.xamarin.sample.fragments.MainActivity;com.xamarin.sample.fragments.MainActivity
+com.xamarin.sample.fragments.TitlesFragment;com.xamarin.sample.fragments.TitlesFragment
 Android.Support.V4.App.FragmentManager.IOnBackStackChangedListenerImplementor;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
 Android.Support.V4.Content.Loader.IOnLoadCompleteListenerImplementor;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
 Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor

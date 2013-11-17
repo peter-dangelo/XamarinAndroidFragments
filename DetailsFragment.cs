@@ -1,12 +1,12 @@
 using System;
 
-using Android.App;
 using Android.OS;
+using Android.Support.V4.App;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
 
-namespace com.xamarin.sample.fragments.honeycomb
+namespace com.xamarin.sample.fragments
 {
 	internal class DetailsFragment : Fragment
 	{

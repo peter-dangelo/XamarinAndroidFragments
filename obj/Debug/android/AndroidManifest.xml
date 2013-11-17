@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="XamarinAndroidFragments.XamarinAndroidFragments">
-  <uses-sdk android:minSdkVersion="12" android:targetSdkVersion="18" />
+  <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="18" />
   <application android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:label="Details Activity" android:name="com.xamarin.sample.fragments.honeycomb.DetailsActivity" />
-    <activity android:label="Fragments Walkthrough" android:name="com.xamarin.sample.fragments.honeycomb.MainActivity">
+    <activity android:label="Details Activity" android:name="com.xamarin.sample.fragments.DetailsActivity" />
+    <activity android:label="Fragments Walkthrough" android:name="com.xamarin.sample.fragments.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

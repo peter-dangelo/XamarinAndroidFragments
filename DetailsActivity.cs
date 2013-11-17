@@ -1,10 +1,11 @@
 using Android.App;
 using Android.OS;
+using Android.Support.V4.App;
 
-namespace com.xamarin.sample.fragments.honeycomb
+namespace com.xamarin.sample.fragments
 {
 	[Activity(Label = "Details Activity")]
-	public class DetailsActivity : Activity
+	public class DetailsActivity : FragmentActivity
 	{
 		protected override void OnCreate(Bundle bundle)
 		{
@@ -12,7 +13,7 @@ namespace com.xamarin.sample.fragments.honeycomb
 			var index = Intent.Extras.GetInt("current_play_id", 0);
 
 			var details = DetailsFragment.NewInstance(index); // Details
-			var fragmentTransaction = FragmentManager.BeginTransaction();
+			var fragmentTransaction = SupportFragmentManager.BeginTransaction();
 			fragmentTransaction.Add(Android.Resource.Id.Content, details);
 			fragmentTransaction.Commit();
 		}
